@@ -24,8 +24,8 @@ function viewCart() {
   if(cart.length === 0) {
     return "Your shopping cart is empty."
   }
-  // cart == [ {itemName: "bananas", itemPrice: 17 } ]
-  var result = `In your cart, you have ${cart[0]}, `
+  // cart == [ {itemName: "lemons", itemPrice: 17 } ]
+  var result = `In your cart, you have ${cart[0].itemName}, `
   //for(var i = 0; i < itemName.length; i++) {
   //}
   return result 
