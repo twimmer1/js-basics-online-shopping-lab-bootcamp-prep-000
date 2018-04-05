@@ -25,7 +25,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   // cart == [ {itemName: "lemons", itemPrice: 17 } ]
-  var result = `In your cart, you have ${cart[0].itemName} at ${cart[0].itemPrice}. `
+  var result = `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}. `
   //for(var i = 0; i < itemName.length; i++) {
   //}
   return result 
